@@ -1,0 +1,18 @@
+DeviceUserID: cam_hand          # User defined camera name
+DeviceSerialNumber: 'DF46210BAK00018' # 
+
+# Camera pixel formats:
+PixelFormat: Mono8              
+# PixelFormat: BayerGB8             
+
+# Camera parameters
+# true 1 , false 0
+Width: 2592                     # Image width
+Height: 1944                    # Image height
+
+ExposureTime: 6000              
+
+# Trigger In
+TriggerMode: 0              # 0: off, 1: on
+
+# Add other parameters if you need

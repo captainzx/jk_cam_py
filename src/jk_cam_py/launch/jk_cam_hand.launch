@@ -1,0 +1,6 @@
+<launch>
+    <rosparam file="$(find jk_cam_py)/config/cam_hand.yaml" command="load" ns="cam_hand"/>
+    <param name="/cam_hand/camera_info_path" value="$(find jk_cam_py)/camera_info/cam_hand_info.yaml"/>
+    <param name="/cam_hand/pub_image" value="true"/>
+    <node pkg="jk_cam_py" type="jk_cam_node.py" name="cam_hand" respawn="true" output="screen" /> 
+</launch>

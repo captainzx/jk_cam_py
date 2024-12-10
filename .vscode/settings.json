@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/opt/HuarayTech/MVviewer/share/Python/MVSDK",
+        "/home/test/jk_cam_base/devel/lib/python3/dist-packages",
+
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/opt/HuarayTech/MVviewer/share/Python/MVSDK",
+        "/home/test/jk_cam_base/devel/lib/python3/dist-packages"
+    ]
+}

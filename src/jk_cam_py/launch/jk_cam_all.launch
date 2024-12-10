@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find jk_cam_py)/launch/jk_cam_hand.launch" />
+    <!-- <include file="$(find hk_cam_py)/launch/jk_cam_xxx.launch" /> -->
+</launch>

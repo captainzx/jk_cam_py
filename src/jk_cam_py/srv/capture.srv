@@ -1,0 +1,5 @@
+# capture one frame and saving it as a .bmp picture to the directory  
+# defined by saving_path
+string saving_path
+string file_format
+---
